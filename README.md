@@ -20,15 +20,12 @@ In this challenge, participating teams are tasked with building a lightweight OC
 
 **Input Image:**
 
-![Input Image](link_to_input_image)
+![Input Image](image/4.jpg)
 
-**Label:** Thôn 1 Ea Ktur Cư Kuin Đắk Lắk
+**Label:** Phước Long 5 Phan Dương Châu Tây Ninh
 
 ### Evaluation
-
-#### Stage 1
-
-In the first stage, team solutions are evaluated based on the edit distance metric (Levenshtein distance). Specifically, for each test case, the team's score is calculated as follows:
+Team solutions are evaluated based on the edit distance metric (Levenshtein distance). Specifically, for each test case, the team's score is calculated as follows:
 
 Assuming the team's result is "output" and the correct label is "label":
 
@@ -47,10 +44,6 @@ The first stage of the competition consists of two phases:
 2. **Private Test:** Teams submit the source code, and the organizers will directly run the inference on the provided server. Final rankings are determined based on private test results.
 
 For more information on edit distance, refer to [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance).
-
-#### Stage 2
-
-Coming soon
 
 ### Limitation
 
