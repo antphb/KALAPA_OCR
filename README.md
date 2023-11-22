@@ -84,5 +84,5 @@ Before you begin, make sure you have the following installed:
 
 Here is a snapshot of the OCR model in action:
 
-![OCR Model](image/image_model.png)
+![OCR Model](image/model.png)
 
