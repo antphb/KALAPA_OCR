@@ -58,6 +58,31 @@ For more information on edit distance, refer to [Levenshtein distance](https://e
 
 ## Getting Started
 
-[Instructions for setting up and running the OCR model will be provided in Stage 2.]
+### Prerequisites
 
+Before you begin, make sure you have the following installed:
+
+- Python 3.x
+- Required Python packages (listed in `requirements.txt`)
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+    git clone https://github.com/antphb/KALAPA_OCR.git
+
+    cd KALAPA_OCR
+
+    pip install -r requirements.txt
+
+    python run_ocr.py --image_path path/to/your/image.jpg
+    ```
+
+
+### Model Showcase
+
+Here is a snapshot of the OCR model in action:
+
+![OCR Model](image/image_model.png)
 
