@@ -62,7 +62,7 @@ For more information on edit distance, refer to [Levenshtein distance](https://e
 
 Before you begin, make sure you have the following installed:
 
-- Python 3.x
+- Python 3.9
 - Required Python packages (listed in `requirements.txt`)
 
 ### Installation
