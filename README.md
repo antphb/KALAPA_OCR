@@ -30,7 +30,10 @@ Team solutions are evaluated based on the edit distance metric (Levenshtein dist
 Assuming the team's result is "output" and the correct label is "label":
 
 - If the result is perfectly accurate (output == label, edit distance is 0), the team receives a score of 1.
-- Otherwise, the score for the test case is calculated using the formula: score = max(0, 1 - 1.5^d/n)
+- Otherwise, the score for the test case is calculated using the formula:
+
+\[ \text{score} = \max \left(0, 1 - \frac{1.5^d}{n} \right) \]
+
 
 where d is the edit distance between the output and label strings, and n is the length of the label string.
 
